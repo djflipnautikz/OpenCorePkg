@@ -7,7 +7,7 @@
 #define LINUX_BOOT_INTERNAL_H
 
 #if !defined (OC_TRACE_GRUB_VARS)
-#define OC_TRACE_GRUB_VARS  DEBUG_VERBOSE
+#define OC_TRACE_GRUB_VARS  DEBUG_INFO
 #endif
 
 /*
