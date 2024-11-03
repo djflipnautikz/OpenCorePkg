@@ -10,15 +10,9 @@
  */
 DefinitionBlock ("", "SSDT", 2, "ACDT", "CpuPlug", 0x00003000)
 {
-    External (_SB_.CPU0, ProcessorObj)
+    
     External (_PR_.CPU0, ProcessorObj)
-    External (_PR_.CP00, ProcessorObj)
-    External (_PR_.C000, ProcessorObj)
-    External (_PR_.P000, ProcessorObj)
-    External (_SB_.PR00, ProcessorObj)
-    External (_PR_.PR00, ProcessorObj)
-    External (_SB_.SCK0.CP00, ProcessorObj)
-    External (_SB_.SCK0.PR00, ProcessorObj)
+    
 
     Method (PMPM, 4, NotSerialized) {
        If (LEqual (Arg2, Zero)) {
